@@ -1,0 +1,17 @@
+if rickroll == "y":
+  print('name the opposite of the following words in order (for example: left,\n the opposite of left is right) Click e at end \n for results.')
+  answer1 = input("Always")
+  if answer1 == "Never" or answer1 == "never":
+    answer2 = input("Staying")
+    if answer2 == "going" or answer2 == "Going":
+      answer3 = input("Take")
+      if answer3 == "give" or answer3 == "Give":
+        answer4 = input("Me")
+        if answer4 == "you" or answer4 == "You":
+          answer5 = input("Down")
+          if answer5 == "up" or answer5 == "Up":
+            results = input("Enter e for results.")
+            if results == "e":
+              print ("Get rickrolled.")
+  else: 
+    ('intelligence test failed- you are not smarter than \n harvard undergrads')
